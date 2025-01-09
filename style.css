@@ -39,6 +39,7 @@ a,li{
     align-self: center;
     column-gap: 1.5rem;
 }
+
 .nav-left-links, .nav-right-links{
     width: fit-content;
     height: auto;
@@ -47,6 +48,7 @@ a,li{
     align-items: center;
     column-gap: 1rem;
 }
+
 .nav-link{
     width: fit-content;
     height: auto;
@@ -56,13 +58,17 @@ a,li{
     column-gap: 0.25rem;
 }
 
-.nav-right{
+.menu-iocn-container-cta{
     width: fit-content;
     height: auto;
     display: flex;
     justify-content: start;
-    align-self: center;
-    column-gap: 1.25rem;
+    align-items: center;
+    column-gap: 1rem;
+}
+.menu-icon{
+    display: none !important;
+    cursor: pointer;
 }
 
 .nav-cta {
@@ -1084,3 +1090,9 @@ a,li{
 
 
 
+/* RESPONSIVENESS */
+
+/* For screen size 1120px */
+@media screen and(max-width:1120px){
+    
+}
